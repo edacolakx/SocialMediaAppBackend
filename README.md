@@ -72,3 +72,5 @@ Tüm endpointler ve detayları için `app.js` dosyasını inceleyebilirsiniz.
 - Kodun okunabilirliği, modülerliği ve sürdürülebilirliği açısından iyileştirmeler yapılması gerekmektedir.
 - Özellikle hata yönetimi, kod tekrarlarının azaltılması, fonksiyonların ayrıştırılması ve güvenlik konularında geliştirmeye açıktır.
 - Bu backend API'siyle entegre çalışan mobil uygulama, farklı bir GitHub reposunda bulunmaktadır. Uygulamanın arayüzü ve istemci tarafı kodlarına erişmek için [Social-Media-App-with-NoSQL](https://github.com/edacolakx/Social-Media-App-with-NoSQL) reposunu ziyaret edebilirsiniz.
+
+> **Not:** Uygulamanın Neo4j veritabanına bağlanabilmesi için, `app.js` dosyasında yer alan Neo4j kullanıcı adı ve şifre bilgilerini kendi Neo4j kurulumunuza göre güncellemeniz gerekmektedir. Her kullanıcı, kendi Neo4j kullanıcı adı ve şifresini kullanmalıdır. Aksi halde bağlantı sağlanamaz.
